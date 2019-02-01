@@ -1,0 +1,62 @@
+.card {
+  margin-top: 7rem;
+}
+
+.card, .card-header {
+  background-color: transparent;
+}
+
+h4 {
+  font-size: 33px;
+}
+
+.line-login {
+  width: 52%;
+  display: inline-block;
+  margin: 0;
+  border-top: 2px solid #fff ;
+}
+
+.fa-user {
+  width: 16px;
+}
+
+
+.sign-in {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.sign-in:hover {
+  color: #6395AB !important;
+}
+
+.btn-transparent {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.btn-transparent:focus, .btn-transparent:active {
+  box-shadow: none !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.input-label {
+  padding-bottom: 0;
+  display: block;
+  width: 100%;
+  color: #ffffff;
+}
+
+.input-group, select.custom-select {
+  height: auto;
+}
+
+.input-group-text {
+  padding: 1em 1.4em !important;
+}

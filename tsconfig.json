@@ -16,6 +16,26 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@namespace/baz": [
+        "dist/namespace/baz"
+      ],
+      "@namespace/baz/*": [
+        "dist/namespace/baz/*"
+      ],
+      "@namespace/foo": [
+        "dist/namespace/foo"
+      ],
+      "@namespace/foo/*": [
+        "dist/namespace/foo/*"
+      ],
+      "@namespace/test-lib": [
+        "dist/namespace/test-lib"
+      ],
+      "@namespace/test-lib/*": [
+        "dist/namespace/test-lib/*"
+      ]
+    }
   }
 }
